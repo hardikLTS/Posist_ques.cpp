@@ -11,7 +11,7 @@
         int data;
         string nodeId;
         string referenceNodeId;
-        map<node*,int>child;
+        map<node*,int>child;     //External library of map is used to store all the childs of the node.
         string genesisReferenceNodeId;
         node()
         {
@@ -170,7 +170,7 @@
             else if(ch == 8)
             {
                 // to find the longest path from the genesis node we can do breadth first search;
-                queue<node*>q;
+                queue<node*>q;  //External library of queue is used for bfs..
                 q.push(root);
                 map<node*int>visit;
                 while(!q.empty())
