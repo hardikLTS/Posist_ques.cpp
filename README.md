@@ -7,7 +7,7 @@ Details of the Project:-
 
 ->Structure is created of the node which has the required attributes. 
 
-->Encryption and Decryption techniqueused is Caesar Cypher algorithm.
+->Encryption and Decryption technique used is Caesar Cypher algorithm.
 
 ->Algorithm like breadth first search and depth first search are used in the project.
 
